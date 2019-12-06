@@ -6,4 +6,8 @@ function fl() {
 
     num = document.getElementById('mynum').value;
     out = document.getElementById('out');
+
+    if (num == prNum) {
+        out.innerHTML = 'Вы угадали';
+    }
 }
