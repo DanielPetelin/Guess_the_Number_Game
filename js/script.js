@@ -9,5 +9,7 @@ function fl() {
 
     if (num == prNum) {
         out.innerHTML = 'Вы угадали';
+    } else if (num > prNum) {
+        out.innerHTML = 'Число больше чем загаданное';
     }
 }
