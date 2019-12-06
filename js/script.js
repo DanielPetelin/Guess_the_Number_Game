@@ -11,5 +11,7 @@ function fl() {
         out.innerHTML = 'Вы угадали';
     } else if (num > prNum) {
         out.innerHTML = 'Число больше чем загаданное';
+    } else {
+        out.innerHTML = 'Вы ввели число меньше задуманного'
     }
 }
