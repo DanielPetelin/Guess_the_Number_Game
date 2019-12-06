@@ -5,6 +5,8 @@ var usernum = document.getElementById('mynum');
 usernum = parseInt(usernum);
 var out = document.getElementById('out');
 
-    if (usernum == number) {
-        out.innerHTML = 'Вы угадали';
+    function getNumber() {
+        if (usernum == number) {
+            out.innerHTML = 'Вы угадали';
+        }   
     }
